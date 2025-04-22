@@ -1,8 +1,8 @@
 # 🎧 Advanced Data Mining & Time-Series Analysis on Spotify Dataset
 
-Genre Classification | Pattern Mining | Time-Series Forecasting | Deep Learning
+## Genre Classification | Pattern Mining | Time-Series Forecasting | Deep Learning
 
-📌 Overview
+## 📌 Overview
 This project extends traditional data mining by combining machine learning, pattern discovery, clustering, and time-series analysis to uncover complex structures within Spotify's vast music dataset. The goal was to classify music genres, detect hidden audio trends over time, and implement AI-driven models for predictive modeling and feature importance.
 
 This was part of our Advanced Data Mining coursework and showcases a full-fledged ML pipeline, including deep learning models and explainable AI tools.
@@ -20,7 +20,7 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 
 🔍 Analyze temporal behaviors in audio trends
 
-📁 Dataset
+## 📁 Dataset
 Source: Spotify API / Public repositories
 
 Tracks: 109,547
@@ -31,7 +31,7 @@ Features: tempo, danceability, energy, valence, acousticness, instrumentalness, 
 
 Format: Tabular, temporal, and categorical
 
-⚙️ Tools & Technologies
+## ⚙️ Tools & Technologies
 Languages: Python
 
 Libraries: scikit-learn, xgboost, keras, tensorflow, shap, lime, tslearn, matplotlib, pandas, seaborn
@@ -40,7 +40,7 @@ Platforms: Jupyter, Colab
 
 Models: SVM, k-NN, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, CNN, LSTM
 
-🧪 Methodology & Implementation
+## 🧪 Methodology & Implementation
 1. Data Preprocessing
 Merged track and artist datasets
 
@@ -94,14 +94,15 @@ Target: Popular vs. Non-popular (based on play counts/ratings)
 
 Achieved 97.1% accuracy using XGBoost
 
-📊 Key Results
+## 📊 Key Results
 Task	Best Model	Accuracy / Score
 Multi-class Genre Classification	k-NN	58.5%
 Popularity Binary Classification	XGBoost	97.1%
 Time-Series Motif Extraction	DTW + Shapelets	Visual Insights Only
 Deep Learning Genre Classifier	CNN	24.1%
 Best Clustering Score	Hierarchical	0.452 (silhouette)
-📌 Visualizations
+
+##📌 Visualizations
 🎯 Confusion matrices for genre classification
 
 🔍 SHAP summary plots for global feature impact
@@ -112,7 +113,7 @@ Best Clustering Score	Hierarchical	0.452 (silhouette)
 
 📈 Cluster visualizations using PCA-reduced data
 
-🧠 Learnings & Takeaways
+## 🧠 Learnings & Takeaways
 Clustering reveals genre-independent groupings—some genres share audio characteristics
 
 Time-series features help in understanding evolution of music preferences
@@ -121,11 +122,11 @@ Explainable AI is essential for model trust, especially in creative domains like
 
 Deep learning works best when large datasets and rich time-context are available
 
-👥 Authors
+#👥 Authors
 Amir Hassan
 
 
-📫 Contact
+#📫 Contact
 Feel free to connect or collaborate:
 📧 amirhassanunipi29@gmail.com
 
