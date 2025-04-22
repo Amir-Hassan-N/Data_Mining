@@ -9,11 +9,11 @@ Together, these projects explore how audio features such as tempo, energy, dance
 
 # 📁 Phase 1: ProjectDM1 – Genre Classification & Pattern Mining
 ## 🎯 Goals:
-Classify music genres based on audio features
+ ◉ Classify music genres based on audio features
 
-Uncover hidden patterns using clustering and association rule mining
+ ◉ Uncover hidden patterns using clustering and association rule mining
 
-Predict genre labels using rule-based and statistical models
+ ◉ Predict genre labels using rule-based and statistical models
 
 ## 🛠️ Techniques Used:
 Data Preprocessing: Outlier removal, normalization, transformation
