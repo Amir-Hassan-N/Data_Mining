@@ -16,43 +16,43 @@ Together, these projects explore how audio features such as tempo, energy, dance
  ◉ Predict genre labels using rule-based and statistical models
 
 ## 🛠️ Techniques Used:
-Data Preprocessing: Outlier removal, normalization, transformation
+➤ Data Preprocessing: Outlier removal, normalization, transformation
 
-Clustering: K-Means, Hierarchical, DBSCAN (Best Silhouette: 0.452)
+➤ Clustering: K-Means, Hierarchical, DBSCAN (Best Silhouette: 0.452)
 
-Classification Models: Decision Tree, k-NN, Naïve Bayes
+➤ Classification Models: Decision Tree, k-NN, Naïve Bayes
 
-Association Rules: Apriori algorithm (Avg. Lift: 17+)
+➤ Association Rules: Apriori algorithm (Avg. Lift: 17+)
 
-Rule-Based Classification: Achieved 96% binary accuracy (e.g., Sleep genre)
+➤ Rule-Based Classification: Achieved 96% binary accuracy (e.g., Sleep genre)
 
 ## 📌 Results:
-k-NN achieved ~58.5% accuracy for genre classification
+➤ k-NN achieved ~58.5% accuracy for genre classification
 
-Clustering revealed genre-independent music groupings
+➤ Clustering revealed genre-independent music groupings
 
-Strong genre-affiliated rules (e.g., high acousticness = Sleep music)
+➤ Strong genre-affiliated rules (e.g., high acousticness = Sleep music)
 
 # 📁 Phase 2: DM2_Report – Time-Series, Deep Learning & Explainable AI
 ## 🎯 Goals:
-Analyze music evolution over time through time-series analysis
+◉ Analyze music evolution over time through time-series analysis
 
-Apply CNN, LSTM, and MLP for genre classification
+◉ Apply CNN, LSTM, and MLP for genre classification
 
-Forecast popularity and interpret models using SHAP & LIME
+◉ Forecast popularity and interpret models using SHAP & LIME
 
 ## 🛠️ Techniques Used:
-Time-Series Analysis: PAA, Dynamic Time Warping, Shapelet Transform
+➤ Time-Series Analysis: PAA, Dynamic Time Warping, Shapelet Transform
 
-Deep Learning: CNN (24.1% genre accuracy), LSTM, MLP
+➤ Deep Learning: CNN (24.1% genre accuracy), LSTM, MLP
 
-Advanced Classification: XGBoost, AdaBoost, Gradient Boosting
+➤ Advanced Classification: XGBoost, AdaBoost, Gradient Boosting
 
 Explainable AI: SHAP & LIME to identify key predictors (e.g., danceability, popularity)
 
 ## 📌 Results:
-Binary classification (Popular vs Non-Popular): 97.1% accuracy with XGBoost
+➤ Binary classification (Popular vs Non-Popular): 97.1% accuracy with XGBoost
 
-Deep learning improved feature abstraction but requires larger datasets
+➤ Deep learning improved feature abstraction but requires larger datasets
 
-SHAP showed interpretability in predicting genre and popularity
+➤ SHAP showed interpretability in predicting genre and popularity
