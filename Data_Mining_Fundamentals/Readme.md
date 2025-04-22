@@ -1,7 +1,7 @@
 # 🎵 Data Mining & Pattern Discovery on Spotify Dataset 
 
 ## Music Genre Classification, Clustering, and Association Rule Mining 
-## A Machine Learning & Data Mining Project by Amir Hassan 
+### A Machine Learning & Data Mining Project by Amir Hassan 
 
 ## 📌 Overview
 This project explores data mining techniques on a large Spotify dataset to uncover insights about audio features, music genres, and behavioral patterns. We applied clustering, classification, and association rule mining to not only classify genres but also find hidden relationships within musical elements.
