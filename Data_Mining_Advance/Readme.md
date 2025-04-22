@@ -8,6 +8,7 @@ This project extends traditional data mining by combining machine learning, patt
 This was part of our Advanced Data Mining coursework and showcases a full-fledged ML pipeline, including deep learning models and explainable AI tools.
 
 🎯 Project Objectives
+
 📊 Classify music genres using both traditional and ensemble ML models
 
 📈 Extract patterns and motifs from time-series audio features
