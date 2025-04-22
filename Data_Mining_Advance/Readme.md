@@ -72,7 +72,7 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 ➤ Analyzed how audio features evolved over time per genre
 
 ### 5. Deep Learning for Genre Prediction
-* Implemented:
+➤ Implemented:
 
 ➜ CNN for feature abstraction → 24.1% accuracy
 
@@ -102,7 +102,7 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 ➜ Deep Learning Genre Classifier	CNN	24.1%
 ➜ Best Clustering Score	Hierarchical	0.452 (silhouette)
 
-##📌 Visualizations
+## 📌 Visualizations
 🎯 Confusion matrices for genre classification
 
 🔍 SHAP summary plots for global feature impact
@@ -123,11 +123,11 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 ➤ Deep learning works best when large datasets and rich time-context are available
 
 
-#👥 Authors
+# 👥 Authors
 ⚡ Amir Hassan
 
 
-#📫 Contact
+# 📫 Contact
 ⚡Feel free to connect or collaborate:
 📧 amirhassanunipi29@gmail.com
 
