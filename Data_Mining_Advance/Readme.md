@@ -41,7 +41,7 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 ◉ Models: SVM, k-NN, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, CNN, LSTM
 
 ## 🧪 Methodology & Implementation
-1. Data Preprocessing
+### 1. Data Preprocessing
 ➤ Merged track and artist datasets
 
 ➤ Handled missing values with mean imputation
@@ -50,28 +50,28 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 
 ➤ Final dataset: 938,597 records, 17 engineered features
 
-2. Clustering Analysis
+### 2. Clustering Analysis
 ➤ Algorithms: K-Means, DBSCAN, Hierarchical Clustering
 
 ➤ Optimized K using Elbow Method & Silhouette Score (Best = 0.452)
 
 ➤ Discovered 6 latent clusters beyond predefined genre tags
 
-3. Genre Classification
+### 3. Genre Classification
 ➤ Algorithms: Decision Tree, k-NN, Naïve Bayes, XGBoost, Gradient Boosting, AdaBoost
 
 ➤ Achieved 58.5% accuracy (k-NN) for multi-class genre classification
 
 ➤ Ensemble methods improved stability and generalization
 
-4. Time-Series Pattern Discovery
+### 4. Time-Series Pattern Discovery
 ➤ Reduced dimensionality with PAA (Piecewise Aggregate Approximation)
 
 ➤ Extracted motifs and anomalies using Dynamic Time Warping (DTW) and Shapelets
 
 ➤ Analyzed how audio features evolved over time per genre
 
-5. Deep Learning for Genre Prediction
+### 5. Deep Learning for Genre Prediction
 * Implemented:
 
 ➜ CNN for feature abstraction → 24.1% accuracy
@@ -82,14 +82,14 @@ This was part of our Advanced Data Mining coursework and showcases a full-fledge
 
 ➜ Input: Time-series extracted from audio feature windows
 
-6. Explainable AI (XAI)
+### 6. Explainable AI (XAI)
 ➜ Applied SHAP & LIME for interpreting black-box models
 
 ➜ Identified danceability, energy, and artist popularity as top predictors
 
 ➜ Generated per-sample and global explanations for insights
 
-7. Binary Classification - Track Popularity
+### 7. Binary Classification - Track Popularity
 ➜ Target: Popular vs. Non-popular (based on play counts/ratings)
 
 ➜ Achieved 97.1% accuracy using XGBoost
